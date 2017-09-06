@@ -1,0 +1,31 @@
+# Permalinks
+permalink:      /:year-:month-:day/:title
+
+# Setup
+title:          Blog
+paginate:       3
+baseurl:        ""
+url:            "https://chesterhow.github.io/tale"
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# Build settings
+markdown:       kramdown
+
+# About
+author:
+  name:         Qingchuan Ma
+  url:          https://github.com/Qingchuan-Ma
+  email:        1600011621@gmail.com
+
+# Custom vars
+version:        3.4.1
+github:
+  repo:         https://github.com/Qingchuan-Ma/tale
+
+# Gems
+gems:
+  - jekyll-paginate
