@@ -32,3 +32,9 @@ $$
     \end{array} \right)
 \end{align*}
 $$
+
+
+
+triangle
+
+ sim triangle DEF
