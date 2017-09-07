@@ -5,7 +5,7 @@ permalink:      /:year-:month-:day/:title
 title:          Blog
 paginate:       3
 baseurl:        ""
-url:            "https://chesterhow.github.io/tale"
+url:            "https://Qingchuan-Ma.github.io/blog"
 
 # Assets
 sass:
@@ -24,7 +24,7 @@ author:
 # Custom vars
 version:        3.4.1
 github:
-  repo:         https://github.com/Qingchuan-Ma/tale
+  repo:         https://github.com/Qingchuan-Ma/blog
 
 # Gems
 gems:
