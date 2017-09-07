@@ -11,4 +11,4 @@ author: "Qingchuan-Ma"
 
 ## for test
 
-$E=mc^2$
+$$E=mc^2$$
