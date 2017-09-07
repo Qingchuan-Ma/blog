@@ -13,7 +13,7 @@ sass:
   style:        :compressed
 
 # Build settings
-markdown:       Maruku #kramdown
+markdown:       kramdown
 
 # About
 author:
