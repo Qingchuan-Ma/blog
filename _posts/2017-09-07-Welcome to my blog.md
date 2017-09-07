@@ -34,7 +34,4 @@ $$
 $$
 
 
-
-triangle
-
- sim triangle DEF
+这里为什么显示不出东西呢
