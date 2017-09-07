@@ -13,7 +13,7 @@ sass:
   style:        :compressed
 
 # Build settings
-markdown:       redcarpet #kramdown
+markdown:       kramdown
 
 # About
 author:
