@@ -19,7 +19,7 @@ markdown:       kramdown
 author:
   name:         Qingchuan Ma
   url:          https://github.com/Qingchuan-Ma
-  email:        1600011621@gmail.com
+  email:        1600011621@pku.edu.cn
 
 # Custom vars
 version:        3.4.1
@@ -27,5 +27,4 @@ github:
   repo:         https://github.com/Qingchuan-Ma/blog
 
 # Gems
-gems:
-  - jekyll-paginate
+plugins: [jekyll-paginate]
