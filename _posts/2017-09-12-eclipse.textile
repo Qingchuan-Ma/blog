@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "利用eclipse配置各种环境"
+author: "Qingchuan-Ma"
+---
+
+h1. 利用eclipse配置三种环境
+
+*安装 utunbu 的时候已经内置安装了 Java, C , Python 等语言包，不需要独立安装，只需安装 eclipse*
+
+h2. 一. 安装 eclipse
+
+选择自动安装或者手动安装，手动安装复杂，选择终端自动安装，按住 Ctrl+Alt+T 弹出终端，输入
+@# sudo apt install eclipse@
+如果有依赖包出错，继续输入
+@# sudo apt-get -f install@
+自动解决依赖包继续重复第一个命令，直到安装成功
+
+h2. 一. Java环境
+
+由于 Java 是 eclipse 的建立语言，安装时必须要使用 JDK，所以 Java 环境也就安装成功了，只需测试环境是否搭建成功
