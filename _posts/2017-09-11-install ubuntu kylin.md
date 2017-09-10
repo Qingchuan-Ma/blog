@@ -11,7 +11,7 @@ _*注意：以下操作全部在电脑 legecy 启动下成立。*_
 ## 一. 准备必要软件硬件
 
 |Soft/Hardware    |  Download         |
-| -------------       |
+| ------------- | ------     |
 | Ubuntu.iso      | [Address](http://cn.ubuntu.com/download/) |
 | DiskGenius |[Address](http://www.diskgenius.cn/download.php)|
 | ultraiso |    [Address](https://cn.ultraiso.net/xiazai.html)   |
@@ -22,7 +22,7 @@ _*注意：以下操作全部在电脑 legecy 启动下成立。*_
 
 利用安装的 ultraiso 打开 Ubuntu.iso 并且 刻录到 U 盘中。
 利用安装的 DiskGenius 分出大约 100G 大小的大小空闲区域。
-由于我已经是在 linux编辑的这片博客，已没有图片可供参考。这一大步骤也不是难事。
+由于我已经是在 linux编辑的这篇博客，已没有图片可供参考。这一大步骤也不是难事。
 
 ## 三. U 盘安装
 
