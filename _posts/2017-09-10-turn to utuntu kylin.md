@@ -60,4 +60,4 @@ author: "Qingchuan-Ma"
 * 利用 git 命令行或者是 github for desktop 将本地网站 push 到 blog 仓库
 * 打开 setting 页面，找到 github pages 选项，将其发布
 
-最终，通过这样我们就可以创建自己的博客了。
+最终，通过这样我们就可以创建自己的博客了。博客网页可以使用 markdown 语言编写 (文件后缀为md)，也可以使用 textile 语言编写 (文件后缀为textile)，而我没有听说过 textile 语言，通过查询该语言也可以像 markdown 一样用简单的语言将以各自的文本文件转化为 html，而这个转化工具 RedCloth 则正好处于 gem 库，于是在 windows 上我再次利用 cmd 输入 gem install RedCloth， 最终却由于不明原因，没有成功，似乎是因为 windows 上的 rubygem 只能利用 MSYS2 作为他的开发环境，而 MSYS2 安装的 MinGW 又很鸡肋的和原版 MinGW 有冲突，于是，我下决心决定安装一个 Linux 系统，于是有了下一篇博客。
