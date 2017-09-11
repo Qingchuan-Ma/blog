@@ -6,6 +6,7 @@ author: "Qingchuan-Ma"
 
 # 安装 Windows 8 和 Ubuntu Kylin 双系统
 
+
 _*注意：以下操作全部在电脑 legecy 启动下成立。*_
 
 ## 一. 准备必要软件硬件
