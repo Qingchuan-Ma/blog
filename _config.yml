@@ -29,3 +29,6 @@ github:
 
 # Gems
 plugins: [jekyll-paginate]
+
+redcloth:
+  hard_breaks: true
