@@ -20,4 +20,4 @@ h2. 一. Java环境
 
 由于 Java 是 eclipse 的建立语言，安装时必须要使用 JDK，所以 Java 环境也就安装成功了，只需测试环境是否搭建成功。
 
-打开 eclipse，然后新建一个 Java project，
+打开 eclipse，然后新建一个 Java project，然后
