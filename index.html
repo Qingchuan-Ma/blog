@@ -16,9 +16,9 @@ title: Home
         <div class="catalogue-line"></div>
 
         <p>
+          {{ post.excerpt }}
           {{ post.content | truncatewords: 30 | strip_html }}
         </p>
-
       </div>
     </a>
   {% endfor %}
