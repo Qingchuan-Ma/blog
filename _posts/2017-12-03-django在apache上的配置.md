@@ -2,7 +2,7 @@
 layout: post
 title:  "在 Apache 上配置 Django"
 author: "Qingchuan-Ma"
-category: Web,Python
+category: Web
 tag: "django"
 ---
 
