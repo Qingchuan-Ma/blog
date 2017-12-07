@@ -6,20 +6,16 @@ permalink: /category/
 ---
 
 <div class="catalogue">
-  {% for post in paginator.posts %}
     <a href="{{ site.url }}/other" class="catalogue-item">
       <div>
-        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-        <h1 class="catalogue-title">{{ post.title }}</h1>
+        <h1 class="catalogue-title">Other</h1>
         <div class="catalogue-line"></div>
 
         <p>
-          Other
+          introduction
         </p>
-
       </div>
     </a>
-  {% endfor %}
 </div>
 
 <div class="pagination">
