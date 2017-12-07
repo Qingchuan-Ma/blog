@@ -1,25 +1,61 @@
 ---
-layout: post
+layout: default
 ---
 
-<div class="catalogue">
-  {% for post in site.categories[page.category] %}
-    <a href="{{ post.url | absolute_url }}" class="catalogue-item">
-      <div>
-        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-        <h1 class="catalogue-title">{{ post.title }}</h1>
-        <div class="catalogue-line"></div>
 
-        <p>
-          {{ post.content | truncatewords: 30 | strip_html }}
-        </p>
+<div class="post">
+  <div class="post-info">
+    <span>Written by&nbsp;</span>{{ page.author }}
+    {% if page.date %}
+      <br>
+      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+    {% endif %}
+    {% if page.category %}
+      <br>
+      <span>category:&nbsp;</span>
+      {{ page.category }}
+    {% endif %}
+    {% if page.tag %}
+      <span>&nbsp;tag:&nbsp;</span>
+      {{ page.tag }}
+    {% endif %}
+  </div>
 
-      </div>
-    </a>
-  {% endfor %}
+  <h2 class="post-title">{{ page.title }}</h2>
+  <div class="post-line"></div>
+
+
+
+  <div class="catalogue">
+    {% for post in site.categories[page.category] %}
+      <a href="{{ post.url | absolute_url }}" class="catalogue-item">
+        <div>
+          <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
+          <h1 class="catalogue-title">{{ post.title }}</h1>
+          <div class="catalogue-line"></div>
+
+          <p>
+            {{ post.content | truncatewords: 30 | strip_html }}
+          </p>
+
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+
 </div>
-
 
 <div class="pagination">
-<a href="{{ site.url }}/category/" class="top">Return</a>
+  {% if page.next.url %}
+    <a href="{{ page.next.url | prepend: site.url }}" class="left arrow">&#8592;</a>
+  {% endif %}
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url | prepend: site.url }}" class="right arrow">&#8594;</a>
+  {% endif %}
+  <a href="{{ site.url }}/category/" class="top">Return</a>
+  <a href="#" class="top">Top</a>
 </div>
+
+
+
+
