@@ -2,8 +2,8 @@
 layout: post
 title:  "apache 在 ubuntu 上的配置"
 author: "Qingchuan-Ma"
-category: "Web"
-tag: "Config"
+category: Web,Python
+tag: "django"
 ---
 
 # Django 在 apache 上的两种配置方法
