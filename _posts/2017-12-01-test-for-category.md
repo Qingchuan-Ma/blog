@@ -1,9 +1,15 @@
 ---
 layout: post
-title: "Blog 太短了？"
-category: "Other"
+title:  "C#的两种配置方法"
+author: "Qingchuan-Ma"
+category: "C#"
+tag: "Config"
 ---
 
-#test   刚刚 为啥没用用
+# C#的两种配置方法
 
-这是怎么回事emmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+## 利用 mono 配置 C#
+
+
+
+## 利用 .NET Core 进行配置 C#
