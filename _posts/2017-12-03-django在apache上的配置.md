@@ -3,7 +3,7 @@ layout: post
 title:  "在 Apache 上配置 Django"
 author: "Qingchuan-Ma"
 category: Web
-tag: "django"
+tag: "Django"
 ---
 
 # Django 在 apache 上的两种配置方法
