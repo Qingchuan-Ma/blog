@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "apache 在 ubuntu 上的配置"
+title:  "在 Apache 上配置 Django"
 author: "Qingchuan-Ma"
 category: Web,Python
 tag: "django"
