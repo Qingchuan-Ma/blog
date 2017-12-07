@@ -3,6 +3,7 @@ layout: post
 title:  "安装Windows 8和Ubuntu Kylin双系统"
 author: "Qingchuan-Ma"
 category: "OS"
+tag: "install"
 ---
 
 # 安装 Windows 8 和 Ubuntu Kylin 双系统
