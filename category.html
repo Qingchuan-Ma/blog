@@ -5,8 +5,10 @@ author: "Qingchuan Ma"
 permalink: /category/
 ---
 
+
+<h2 class="catalogue-title">Category</h2>
 <div class="catalogue">
-    <a href="{{ site.url }}/other" class="catalogue-item">
+    <a href="{{ page.url }}/other" class="catalogue-item">
       <div>
         <h1 class="catalogue-title">Other</h1>
         <div class="catalogue-line"></div>
@@ -19,13 +21,6 @@ permalink: /category/
 </div>
 
 <div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.url }}" class="left arrow">&#8592;</a>
-  {% endif %}
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.url }}" class="right arrow">&#8594;</a>
-  {% endif %}
-
   <span>{{ paginator.page }}</span>
 </div>
 
