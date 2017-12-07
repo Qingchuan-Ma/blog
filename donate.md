@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Donate"
-author: "Qingchuan Ma"
+author: "Qingchuan-Ma"
 permalink: /donate/
 ---
 

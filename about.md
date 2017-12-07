@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "About"
-author: "Qingchuan Ma"
+author: "Qingchuan-Ma"
 permalink: /about/
 ---
 
