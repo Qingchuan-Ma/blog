@@ -1,5 +1,5 @@
 ---
 layout: category
-title: "OS"
+title: "Operating System"
 category: OS
 ---
