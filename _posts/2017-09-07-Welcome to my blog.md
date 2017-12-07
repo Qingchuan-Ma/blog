@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to my blog"
 author: "Qingchuan-Ma"
 category: "Other"
+tag: "Welcome"
 ---
 
 ## 欢迎大家来到我的博客
