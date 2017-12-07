@@ -1,7 +1,5 @@
 ---
 layout: category
-title: "Blog"
+title: "Other"
 category: Other
 ---
-
-#test
