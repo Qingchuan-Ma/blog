@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome to my blog"
 author: "Qingchuan-Ma"
+category: "Other"
 ---
 
 ## 欢迎大家来到我的博客

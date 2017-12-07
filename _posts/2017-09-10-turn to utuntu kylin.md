@@ -2,6 +2,7 @@
 layout: post
 title:  "运用Jekyll建立博客"
 author: "Qingchuan-Ma"
+category: "Config"
 ---
 
 # Windows 上搭建 jekyll 环境并建立个人网站
