@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blog"
+title: "Blog 太短了？"
 category: "Other"
 ---
 
