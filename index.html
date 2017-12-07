@@ -8,9 +8,8 @@ title: Home
     <a href="{{ post.url | prepend: site.url }}" class="catalogue-item">
       <div>
         <time datetime="{{ post.date }}" class="catalogue-time"> {{ post.date | date: "%B %d, %Y" }} </time>
-
-        {% if page.category %}
-        {{ post.category }}
+        {% if post.category %}
+        category: {{ post.category }}
         {% endif %}
         <b></b>
         <h1 class="catalogue-title">{{ post.title }}</h1>
