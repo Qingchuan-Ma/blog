@@ -18,15 +18,17 @@ tag: "Config"
 * 可以选择去[官网](https://rubygems.org/pages/download)下载压缩包解压运行* setup.rb*
 
 * 在cmd中输入下面代码(升级)
-{%highlight ruby%}
+{%highlight shell%}
 gem update --system
 {%endhighlight
   %}
 
   或者下面代码(更新)
-  >gem install rubygems-update
+  {%highlight shell%}
+  gem install rubygems-update
 
-  >update_rubygems
+  update_rubygems
+  {%highlight shell%}
 
 ### *3.安装 jekyll :*
 * 安装完了以后在cmd中运行
