@@ -20,7 +20,8 @@ tag: "Config"
 * 在cmd中输入下面代码(升级)
 {%highlight ruby%}
 gem update --system
-{%endhighlight %}
+{%endhighlight
+  %}
 
   或者下面代码(更新)
   >gem install rubygems-update
@@ -36,11 +37,14 @@ gem update --system
 ## 二. 测试jekyll环境是否搭建成功
 
 在命令行中输入下面代码
+{%highlight shell%}
 >jekyll new blog
 
 >cd blog
 
 >jekyll serve --wathch
+
+{%endhighlight%}
 
 第一行建立了一个一个新博客，第二行进入博客目录，第三行在本地搭建了一个服务器，可以在浏览器中输入 http://localhost:4000 ( 127.0.0.1:4000 ) 进入你所搭建的本地网站。
 
