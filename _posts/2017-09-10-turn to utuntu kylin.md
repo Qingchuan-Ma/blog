@@ -42,7 +42,7 @@ gem update --system
 
 >cd blog
 
->jekyll serve --wathch
+>jekyll serve --watch
 
 {%endhighlight%}
 
