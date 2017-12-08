@@ -28,7 +28,7 @@ gem update --system
   gem install rubygems-update
 
   update_rubygems
-  {%highlight shell%}
+  {%endhighlight%}
 
 ### *3.安装 jekyll :*
 * 安装完了以后在cmd中运行
