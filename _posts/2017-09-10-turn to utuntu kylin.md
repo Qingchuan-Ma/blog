@@ -18,7 +18,9 @@ tag: "Config"
 * 可以选择去[官网](https://rubygems.org/pages/download)下载压缩包解压运行* setup.rb*
 
 * 在cmd中输入下面代码(升级)
-  >gem update --system
+{%highlight ruby%}
+gem update --system
+{%endhighlight %}
 
   或者下面代码(更新)
   >gem install rubygems-update
