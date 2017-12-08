@@ -38,11 +38,11 @@ gem update --system
 
 在命令行中输入下面代码
 {%highlight shell%}
->jekyll new blog
+jekyll new blog
 
->cd blog
+cd blog
 
->jekyll serve --watch
+jekyll serve --watch
 
 {%endhighlight%}
 
