@@ -1,10 +1,9 @@
 ---
-layout:post
-author: Qingchuan-Ma
-title: "CMSs of Django"
-category: Web
-tag:CMS,Django
+layout: post
+title:  "CMSs of Django"
+author: "Qingchuan-Ma"
+category: "Web"
+tag: "CMS,Django"
 ---
-
 
 # CMSs of Django
