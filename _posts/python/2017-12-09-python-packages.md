@@ -19,4 +19,7 @@ tag: modules
 
 [6](https://www.zhihu.com/question/24590883)
 
-[**666**](https://github.com/sindresorhus/awesome)(awesome book!!!)
+## [**666**](https://github.com/sindresorhus/awesome)(awesome book!!!)
+
+
+statsmodels
