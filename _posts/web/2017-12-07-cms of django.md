@@ -39,3 +39,4 @@ tag: "CMS,Django"
 (used in web publishing to allow web designers and developers to work with web templates for the automatic generation of custom web pages)
 
 [Web server software](https://en.wikipedia.org/wiki/Comparison_of_web_server_software)
+(a computer system that processes requests via HTTP, the basic network protocol used to distribute information on the World Wide Web)
