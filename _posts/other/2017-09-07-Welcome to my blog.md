@@ -19,7 +19,7 @@ $$
 E=mc^2
 $$
 
-
+$$
 \begin{align*}
   & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
   = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
@@ -34,7 +34,7 @@ $$
       y_n
     \end{array} \right)
 \end{align*}
-
+$$
 
 \[\sum\limit_{i=1}^N\sqrt{|x_i-\bar{x}|}\]
 这里为什么显示不出东西呢
