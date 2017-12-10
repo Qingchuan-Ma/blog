@@ -12,8 +12,6 @@ tag: "CMS,Django"
 
 # 一些概念
 
-
-
 [application servers](https://en.wikipedia.org/wiki/List_of_application_servers)
 (a software framework that provides both facilities to create web applications and a server environment to run them)
 
