@@ -50,7 +50,12 @@ tag: "CMS,Django"
 [list of css](http://cssframeworks.org/)
 (A collection of the best front end frameworks)
 
+[style sheet](https://en.wikipedia.org/wiki/Style_sheet)
 
+[markup language](https://en.wikipedia.org/wiki/List_of_markup_languages)
+(a system for annotating a document in a way that is syntactically distinguishable from the text)
+
+[computer language](https://en.wikipedia.org/wiki/Computer_language)
 
 # 一些很棒的js
 
