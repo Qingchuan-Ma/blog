@@ -4,9 +4,8 @@ permalink:      /:year-:month-:day/:title
 # Setup
 title:          Qingchuan-Ma'Blog
 paginate:       4
-baseurl:        "/blog"
-homeurl:        "https://Qingchuan-Ma.github.io"
-url:            baseurl + homeurl
+baseurl:        ""
+url:            "https://Qingchuan-Ma.github.io/blog"
 
 
 # Assets
