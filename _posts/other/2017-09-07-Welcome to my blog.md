@@ -10,6 +10,7 @@ tag: "Welcome"
 
 ### 这个博客是用Jekyll建立，并挂载在Github上的。
 
+[git](http://blog.csdn.net/yywan1314520/article/details/51566924)
 
 ## 接下来是做测试
 
