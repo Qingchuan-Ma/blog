@@ -5,7 +5,7 @@ permalink:      /:year-:month-:day/:title
 title:          Qingchuan-Ma'Blog
 paginate:       4
 baseurl:        "/"
-url:        "https://Qingchuan-Ma.github.io/blog"
+url:            "https://Qingchuan-Ma.github.io/blog"
 
 
 # Assets
@@ -30,7 +30,7 @@ github:
   repo:         https://github.com/Qingchuan-Ma/blog
 
 # Gems
-plugins: [jekyll-paginate]
+plugins:        [jekyll-paginate]
 
 redcloth:
   hard_breaks: true
