@@ -36,5 +36,5 @@ $$
 \end{align*}
 $$
 
-$$\[\sum\limit_{i=1}^N\sqrt{|x_i-\bar{x}|}\]$$
+$$\sum\limits_{i=1}^N\sqrt{|x_i-\bar{x}|}$$
 这里为什么显示不出东西呢
