@@ -14,20 +14,29 @@ tag: "Apache"
 
 ## 2. apache的安装和配置
 
-[参考这个](https://qingchuan-ma.github.io/blog/2017-12-01/apache%E7%9A%84%E9%85%8D%E7%BD%AE)
+[参考这篇blog](https://qingchuan-ma.github.io/blog/2017-12-01/apache%E7%9A%84%E9%85%8D%E7%BD%AE)
+
 这里我们采用了上文的第一种方法并且以此安装Lamp套组
 
 ## 3. lamp的安装和配置
 
+输入以下命令
+{%highlight shell%}
+sudo tasksel install(remove) lamp-server
+{%endhighlight%}
+其中会让你设置mysql的密码
+
+## 4. 安装 django 框架
+先安装python-mysql，否则出现依赖错误
+{%highlight shell%}
+pip install python-mysql
+pip install django
+{%endhighlight%}
+同时配置WSGI
+
+安装详情参考[这篇blog](https://qingchuan-ma.github.io/blog/2017-12-03/django%E5%9C%A8apache%E4%B8%8A%E7%9A%84%E9%85%8D%E7%BD%AE)
 
 
-3. apache自己安装时候的  apr 和 apr-util 和 pec 这种方法的安装wg就麻烦的多了
-4. lamp   mysql  php  设置密码
-5. 安装django   pip install 的时候
-6. pip/ 安装 wgsy  并启动  和虚拟主机的启用
-7. django的启用的时候遇到的问题 python-mysql （import 的时候出错了）
-8. 和一个例子
+## 5. 学会使用apache的虚拟主机
 
-
-
-9.  反向代理还没有完成
+虚拟主机和反向代理机制
