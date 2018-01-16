@@ -6,10 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <script type="text/javascript"
-    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
   </script>
-  <script type="text/javascript"<src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
-  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
   <title>
     
@@ -18,7 +16,7 @@
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="http://localhost:4000/styles.css">
+  <link rel="stylesheet" href="http://localhost:4048/styles.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
 </head>
 
@@ -26,13 +24,14 @@
   <body>
     <nav class="nav">
       <div class="nav-container">
-        <a href="http://localhost:4000">
+        <a href="http://localhost:4048">
           <h2 class="nav-title">Qingchuan-Ma'Blog</h2>
         </a>
         <ul>
-          <li><a href="http://localhost:4000/about">About</a></li>
-          <li><a href="http://localhost:4000/donate">Donate</a></li>
-          <li><a href="http://localhost:4000">Post</a></li>
+          <li><a href="http://localhost:4048">Posts</a></li>
+          <li><a href="http://localhost:4048/category">Category</a></li>
+          <li><a href="http://localhost:4048/donate">Donate</a></li>
+          <li><a href="http://localhost:4048/about">About</a></li>
         </ul>
     </div>
   </nav>
@@ -40,41 +39,73 @@
     <main>
       <div class="catalogue">
   
-    <a href="http://localhost:4000/2017-09-10/turn-to-utuntu-kylin" class="catalogue-item">
+    <a href="http://localhost:4048/2017-12-09/python-packages" class="catalogue-item">
       <div>
-        <time datetime="2017-09-10 00:00:00 +0800" class="catalogue-time">September 10, 2017</time>
-        <h1 class="catalogue-title">运用Jekyll建立博客的过程记录</h1>
+        <time datetime="2017-12-09 00:00:00 +0800" class="catalogue-time">December 09, 2017</time>
+        <h1 class="catalogue-title">Packages in Python</h1>
         <div class="catalogue-line"></div>
 
         <p>
-          
+          List of important packages
+
+Sphinx(documentation writer)
+
+Jinja2(template engine)
+
+Pelican
+
+Docutils(text processing system,Documentation Utilities)
+
+6
+
+666(awesome book!!!)
+
+statsmodels
 
         </p>
 
       </div>
     </a>
   
-    <a href="http://localhost:4000/2017-09-07/Welcome-to-my-blog" class="catalogue-item">
+    <a href="http://localhost:4048/2017-12-07/cms-of-django" class="catalogue-item">
       <div>
-        <time datetime="2017-09-07 00:00:00 +0800" class="catalogue-time">September 07, 2017</time>
-        <h1 class="catalogue-title">Welcome to my blog</h1>
+        <time datetime="2017-12-07 00:00:00 +0800" class="catalogue-time">December 07, 2017</time>
+        <h1 class="catalogue-title">CMSs of Django</h1>
         <div class="catalogue-line"></div>
 
         <p>
-          欢迎大家来到我的博客 这个博客是用Jekyll建立，并挂载在Github上的。 接下来是做测试  % <![CDATA[ \begin{align*} & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)...
+          CMSs of Django content management system 一些概念 application servers (a software framework that provides both facilities to create web applications and a server environment to run...
         </p>
 
       </div>
     </a>
   
-    <a href="http://localhost:4000/2017-03-16/example-content" class="catalogue-item">
+    <a href="http://localhost:4048/2017-12-05/jamstack" class="catalogue-item">
       <div>
-        <time datetime="2017-03-16 00:00:00 +0800" class="catalogue-time">March 16, 2017</time>
-        <h1 class="catalogue-title">Example Content</h1>
+        <time datetime="2017-12-05 00:00:00 +0800" class="catalogue-time">December 05, 2017</time>
+        <h1 class="catalogue-title">jamstack 介绍</h1>
         <div class="catalogue-line"></div>
 
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt ornare nibh, non elementum augue tempus eget. Pellentesque tempus scelerisque iaculis. Nullam interdum ultricies nibh quis sollicitudin. Donec ornare fermentum...
+          Static site generator StaticGen Headless Netlify JamStack CMS 是什么 (如Wordpress,Joomla) CMS 一般用于门户型网站的建立或者是 个人博客。 和框架的区别是什么 (如django) 框架更为底层 静态网站 一般用于建立 个人博客 ,利用一种JAM框架进行建立 JAM...
+        </p>
+
+      </div>
+    </a>
+  
+    <a href="http://localhost:4048/2017-12-03/django%E5%9C%A8apache%E4%B8%8A%E7%9A%84%E9%85%8D%E7%BD%AE" class="catalogue-item">
+      <div>
+        <time datetime="2017-12-03 00:00:00 +0800" class="catalogue-time">December 03, 2017</time>
+        <h1 class="catalogue-title">在 Apache 上配置 Django</h1>
+        <div class="catalogue-line"></div>
+
+        <p>
+          Django 在 apache 上的两种配置方法
+
+利用 apache 的反向代理配置
+
+利用 WSGI 进行配置
+
         </p>
 
       </div>
@@ -85,17 +116,20 @@
 <div class="pagination">
   
   
-    <a href="http://localhost:4000/page2" class="right arrow">&#8594;</a>
+    <a href="http://localhost:4048/page2" class="right arrow">&#8594;</a>
   
 
   <span>1</span>
 </div>
 
+
+
+
     </main>
 
     <footer>
       <span>
-        &copy; <time datetime="2017-09-10 12:06:27 +0800">2017</time> Qingchuan Ma. Made with Jekyll
+        &copy; <time datetime="2018-01-06 11:15:36 +0800">2018</time> Qingchuan-Ma. Made with Jekyll
       </span>
     </footer>
   </body>
