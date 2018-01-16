@@ -14,7 +14,11 @@ tag: "Apache"
 
 ## 2. apache的安装和配置
 
-(参考这个)[https://qingchuan-ma.github.io/blog/2017-12-01/apache%E7%9A%84%E9%85%8D%E7%BD%AE]
+[参考这个](https://qingchuan-ma.github.io/blog/2017-12-01/apache%E7%9A%84%E9%85%8D%E7%BD%AE)
+这里我们采用了上文的第一种方法并且以此安装Lamp套组
+
+## 3. lamp的安装和配置
+
 
 
 3. apache自己安装时候的  apr 和 apr-util 和 pec 这种方法的安装wg就麻烦的多了
